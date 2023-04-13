@@ -1,15 +1,14 @@
 # Epic Games Scraper 
 
 Summary:
-This Python program scrapes all the useful info about each of the free games that Epic Games sends out weekly.
-Then it retrives the review of each of the free games in Metacriti.
-Finally the program stores all the infomation in Excel and send a copy to the user.
+This python program scrapes all the useful information about all the free weekly games that Epic Games give out.
+It retrives the review of each of the free games in Metacriti. Stores all the infomation in Excel and sends a copy to the user.
 
-Tools used:
-Window Task Schudler: is used so that this program can be run automatically daily.
-Selenium: is used becuase each of the free games are dynicmally generated using Javascript.
-Pandas: is used to store and organzie all the data scraped.
-Twiloi:  is used to send a copy of the info to user's phone. 
+##Tools used:
+- Window Task Schudler: is used so that this program can be run automatically daily.
+- Selenium: is used becuase each of the free games are dynicmally generated using Javascript.
+- Pandas: is used to store and organzie all the data scraped.
+- Twiloi:  is used to send a copy of the info to user's phone. 
 
 
 A Simple Walk Through:
@@ -20,7 +19,8 @@ Then it naigets to Metacritic to scrape the Meta Score and User Score of each fr
 ![Screenshot 2023-04-12 214142](https://user-images.githubusercontent.com/90666615/231625332-726b2ecb-ba86-44e7-972e-eb7343eafbe0.png)
 
 
-Finally, it stores all the information it get into an Excel docemetn while sending a copy of the info to the user's phone.
+Finally, it stores all the information it get into an Excel docemetn.
 ![Screenshot 2023-04-12 200417](https://user-images.githubusercontent.com/90666615/231625379-75cbe3b7-4781-423a-8973-ac2fdf3f57e0.png)
 
+Sends a copy to the user's phone
 ![IMG_2795](https://user-images.githubusercontent.com/90666615/231625426-e577f961-752d-41c9-8c95-cd119fe5f466.jpeg)
