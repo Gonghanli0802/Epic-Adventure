@@ -14,5 +14,7 @@ Twiloi:  is used to send a copy of the info to user's phone.
 
 A Simple Walk Through:
 Firstly, this program first visits the Epic Games and scrapes the name, date, price, and genres of all the free weekly games.
+![Screenshot 2023-04-12 195604](https://user-images.githubusercontent.com/90666615/231624729-ca16de6c-0361-4a6b-a464-a9bd7412a489.png)
+
 Then it naigets to Metacritic to scrape the Meta Score and User Score of each free game.
 Finally, it stores all the information it get into an Excel docemetn while sending a copy of the info to the user's phone.
