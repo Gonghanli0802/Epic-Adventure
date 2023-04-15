@@ -8,6 +8,7 @@ It retrieves the review of each free games on Metacritic. Then stores the inform
 ## Tools used:
 - Python/Selenium: is used because each free games is dynamically generated using Javascript.
 - Pandas: is used to store and organize all the data scraped.
+- Pickle: is used to store and load cookies to avoid pop up alerts.
 - Twilio:  is used to send a copy of the info to the user's phone. 
 - Window Task Scheduler: is used so that this program can execute automatically.
 
